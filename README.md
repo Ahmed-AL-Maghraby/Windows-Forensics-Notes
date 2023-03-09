@@ -11,7 +11,15 @@
 
 ## Windows Acquisition
 
++ FTK Imager
++ KAPE
++ WinTriage
 
+
+
+SAM (mounted on HKEY_LOCAL_MACHINE\SAM) > users info and grops
+
+VPN connection > \Software\Microsoft\Windows NT\CurrentVersion\NetworkList
 
 
 
