@@ -4,7 +4,7 @@
 
 | Table of Contents |
 | -------------------- |
-|  | 
+| [Windows-Registry-Analysis](https://github.com/ahmed-kamal-el-maghraby/Windows-Forensics-Notes/blob/main/Windows-Registry-Analysis.md) | 
 |  |
 |  |
 
@@ -15,17 +15,6 @@
 + KAPE
 + WinTriage
 
-
-
-
-
-
-
-
-
-
-
-
 ## Command
 
 systeminfo : information about machine
@@ -34,9 +23,7 @@ net user ahmed : info about Ahmed
 
 
 ## Paths
-
-C:\Windows\System32\Tasks : Scheduled Tasks Path
-
+Scheduled Tasks Path : C:\Windows\System32\Tasks
 hosts file path : C:\Windows\System32\Drivers\etc\hosts
 
 ---------------------------------
