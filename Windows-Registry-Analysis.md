@@ -1,16 +1,20 @@
 #Windows-Registry-Analysis
-
+<br>
+<br>
 
 ## Table of Contents
+<br>
 
 | Table of Contents |
 | -------------------- |
-|  | 
-|  |
-|  |
+| [System info and accounts](https://github.com/ahmed-kamal-el-maghraby/Windows-Forensics-Notes/blob/main/Windows-Registry-Analysis.md#system-info-and-accounts) | 
+| [Software, services and programms](https://github.com/ahmed-kamal-el-maghraby/Windows-Forensics-Notes/blob/main/Windows-Registry-Analysis.md#software-services-and-programms) |
+| [Network, Share and Backups](https://github.com/ahmed-kamal-el-maghraby/Windows-Forensics-Notes/blob/main/Windows-Registry-Analysis.md#network-share-and-backups) |
+| [Hardware, printers and External/USB device](https://github.com/ahmed-kamal-el-maghraby/Windows-Forensics-Notes/blob/main/Windows-Registry-Analysis.md#hardware-printers-and-externalusb-device) |
+| [Files and Folders](https://github.com/ahmed-kamal-el-maghraby/Windows-Forensics-Notes/blob/main/Windows-Registry-Analysis.md#files-and-folders) |
 
-
-
+<br>
+<br>
 
 
 ### System info and accounts
