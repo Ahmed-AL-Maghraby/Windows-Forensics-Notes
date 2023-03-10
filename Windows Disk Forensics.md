@@ -1,5 +1,12 @@
 
- 
+ | Table of Contents |
+ | ----------------- |
+ | [Windows Prefetch files](https://github.com/ahmed-kamal-el-maghraby/Windows-Forensics-Notes/blob/main/Windows%20Disk%20Forensics.md#windows-prefetch-files) |
+ | [Windows 10 Timeline](https://github.com/ahmed-kamal-el-maghraby/Windows-Forensics-Notes/blob/main/Windows%20Disk%20Forensics.md#windows-10-timeline) |
+ | [Windows Jump Lists](https://github.com/ahmed-kamal-el-maghraby/Windows-Forensics-Notes/blob/main/Windows%20Disk%20Forensics.md#windows-jump-lists) |
+ | [Shortcut Files](https://github.com/ahmed-kamal-el-maghraby/Windows-Forensics-Notes/blob/main/Windows%20Disk%20Forensics.md#shortcut-files) |
+ | [IE/Edge history](https://github.com/ahmed-kamal-el-maghraby/Windows-Forensics-Notes/blob/main/Windows%20Disk%20Forensics.md#ieedge-history) |
+ | [Setupapi dev logs for USB devices](https://github.com/ahmed-kamal-el-maghraby/Windows-Forensics-Notes/blob/main/Windows%20Disk%20Forensics.md#setupapi-dev-logs-for-usb-devices) |
  
  ## Windows Prefetch files
 
