@@ -4,8 +4,8 @@
 
 | Table of Contents |
 | -------------------- |
-| [Windows-Registry-Analysis](https://github.com/ahmed-kamal-el-maghraby/Windows-Forensics-Notes/blob/main/Windows-Registry-Analysis.md) | 
-
+| [Windows Registry Analysis](https://github.com/ahmed-kamal-el-maghraby/Windows-Forensics-Notes/blob/main/Windows-Registry-Analysis.md) | 
+| [Windows Disk Forensics](https://github.com/ahmed-kamal-el-maghraby/Windows-Forensics-Notes/blob/main/Windows%20Disk%20Forensics.md) |
 
 
 ## Windows Acquisition
