@@ -51,7 +51,7 @@
 | + SYSTEM\CurrentControlSet\Services\bam\UserSettings\{SID} <br> + SYSTEM\CurrentControlSet\Services\dam\UserSettings\{SID} | saves the full path of the executed programs |
 | C:\Windows\AppCompat\Programs\Amcache.hve | - Amcache Hive : save information on programs that were recently run <br> - This data includes execution path, installation, execution and deletion times, and SHA1 hashes of the executed programs |
 | NTUSER.DAT\Software\Microsoft\Windows\CurrentVersion\Run <br> NTUSER.DAT\Software\Microsoft\Windows\CurrentVersion\RunOnce <br> SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce <br> SOFTWARE\Microsoft\Windows\CurrentVersion\policies\Explorer\Run <br> SOFTWARE\Microsoft\Windows\CurrentVersion\Run | Autostart Programs (Autoruns) |
-| Run command history | HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\RunMRU |
+| HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\RunMRU | Run command history |
 
 <br> <br> 
 
