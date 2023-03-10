@@ -64,25 +64,42 @@ Run command history > HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersio
 | - SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkList\Signatures\Unmanaged <br> - SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkList\Signatures\Managed | Past Networks |
 | SYSTEM\CurrentControlSet\Services\LanmanServer\Shares | Windows shares |
 | \Software\Microsoft\Windows NT\CurrentVersion\NetworkList | VPN Connection |
-| - C:\Windows\System32\Config\RegBack <br> - directory every ten days. registry keys might have been deleted/modified recently | Backups - RegBack |
-
-
-
-
-
-| HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders | contains information about the locations of various system folders, such as the desktop and the Start menu |
-
-| HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer | contains information about Explorer policies that are enforced on the system |
-
 | HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Winsock2\Parameters | contains information about the system's Winsock settings, which are used for network communication |
+| - C:\Windows\System32\Config\RegBack <br> - directory every ten days. registry keys might have been deleted/modified recently | Backups - RegBack |
+<br> <br> <br> <br> 
 
 
-| HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs | contains information about recently opened documents |
 
+### Hardware, printers and External/USB device
 
+| Registry keys | Description |
+| -------------------- | -------------------- |
 | HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum | contains information about hardware devices that are installed on the system |
 | HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Drivers32 | contains information about audio drivers on the system |
 | HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Print\Printers | contains information about installed printers on the system |
+
+
+<br> <br> <br> <br> 
+
+
+
+### Files and Folders
+
+| Registry keys | Description |
+| -------------------- | -------------------- |
+| HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders | contains information about the locations of various system folders, such as the desktop and the Start menu |
+| HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs | contains information about recently opened documents |
+| HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer | contains information about Explorer policies that are enforced on the system |
+| - NTUSER.DAT\Software\Microsoft\Windows\CurrentVersion\Explorer\TypedPaths <br> - NTUSER.DAT\Software\Microsoft\Windows
+\CurrentVersion\Explorer\WordWheelQuery | Windows Explorer Address/Search Bars |
+| -NTUSER.DAT\Software\Microsoft\Windows
+\CurrentVersion\Explorer\ComDlg32\OpenSavePIDlMRU <br> - NTUSER.DAT\Software\Microsoft\Windows
+\CurrentVersion\Explorer\ComDlg32\LastVisitedPidlMRU | Open/Save and LastVisited Dialog MRUs |
+| - NTUSER.DAT\Software\Microsoft\Office\VERSION <br> - NTUSER.DAT\Software\Microsoft\Office\VERSION\UserMRU\LiveID_####\FileMRU | Office Recent Files |
+
+
+
+
 
 
 ## Command
