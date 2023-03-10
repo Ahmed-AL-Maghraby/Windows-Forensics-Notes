@@ -75,6 +75,12 @@ Run command history > HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersio
 | Registry keys | Description |
 | -------------------- | -------------------- |
 | HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum | contains information about hardware devices that are installed on the system |
+| _LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\USBSTOR | This key contains information about the external devices that have been connected to the system, including the manufacturer, model, and serial number |
+| _LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\USB | This key contains information about the USB controllers and hubs on the system, as well as the devices connected to them |
+| _LOCAL_MACHINE\SYSTEM\MountedDevices | This key contains information about the mounted volumes on the system, including external USB devices | It can be used to determine the drive letter assigned to a particular device |
+| _CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\MountPoints2 | This key contains information about the mounted volumes on the system, including external USB devices | It can be used to determine the drive letter assigned to a particular device |
+| _CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\ComDlg32\LastVisitedPidlMRU | This key contains information about the most recently accessed files and folders on external USB devices | It can be used to determine what files were accessed and when |
+| _CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\USBStor | This key contains information about external USB devices that have been connected to the system, including the device ID, the drive letter, and the last time the device was connected |
 | HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Drivers32 | contains information about audio drivers on the system |
 | HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Print\Printers | contains information about installed printers on the system |
 
