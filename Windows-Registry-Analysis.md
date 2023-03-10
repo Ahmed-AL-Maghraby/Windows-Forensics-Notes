@@ -1,4 +1,5 @@
-# Windows-Forensics-Notes
+#Windows-Registry-Analysis
+
 
 ## Table of Contents
 
@@ -9,19 +10,6 @@
 |  |
 
 
-## Windows Acquisition
-
-+ FTK Imager
-+ KAPE
-+ WinTriage
-
-
-
-
-
-
-
-Run command history > HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\RunMRU
 
 
 
@@ -40,7 +28,7 @@ Run command history > HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersio
 | HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System | contains information about system policies that are enforced on the system |
 
 <br> <br> 
-<br> <br> 
+
 ### Software, services and programms
 
 | Registry keys | Description |
@@ -52,8 +40,9 @@ Run command history > HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersio
 | + SYSTEM\CurrentControlSet\Services\bam\UserSettings\{SID} <br> + SYSTEM\CurrentControlSet\Services\dam\UserSettings\{SID} | saves the full path of the executed programs |
 | C:\Windows\AppCompat\Programs\Amcache.hve | - Amcache Hive : save information on programs that were recently run <br> - This data includes execution path, installation, execution and deletion times, and SHA1 hashes of the executed programs |
 | NTUSER.DAT\Software\Microsoft\Windows\CurrentVersion\Run <br> NTUSER.DAT\Software\Microsoft\Windows\CurrentVersion\RunOnce <br> SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce <br> SOFTWARE\Microsoft\Windows\CurrentVersion\policies\Explorer\Run <br> SOFTWARE\Microsoft\Windows\CurrentVersion\Run | Autostart Programs (Autoruns) |
+| Run command history | HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\RunMRU |
 
-<br> <br> <br> <br> 
+<br> <br> 
 
 ### Network, Share and Backups
 
@@ -68,7 +57,7 @@ Run command history > HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersio
 | HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Winsock2\Parameters | contains information about the system's Winsock settings, which are used for network communication |
 | - C:\Windows\System32\Config\RegBack <br> - directory every ten days. registry keys might have been deleted/modified recently | Backups - RegBack |
 
-<br> <br> <br> <br> 
+<br> <br>
 
 
 
@@ -86,7 +75,7 @@ Run command history > HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersio
 | HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Print\Printers | contains information about installed printers on the system |  
 
 
-<br> <br> <br> <br> 
+<br> <br>
 
 
 
@@ -107,19 +96,3 @@ Run command history > HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersio
 
 <br> <br> <br> <br> 
 
-
-
-## Command
-
-systeminfo : information about machine
-net user : users in system
-net user ahmed : info about Ahmed
-
-
-## Paths
-
-C:\Windows\System32\Tasks : Scheduled Tasks Path
-
-hosts file path : C:\Windows\System32\Drivers\etc\hosts
-
----------------------------------
