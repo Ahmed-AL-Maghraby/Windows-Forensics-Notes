@@ -1,8 +1,10 @@
 #Windows-Registry-Analysis
+
 <br>
 <br>
 
 ## Table of Contents
+
 <br>
 
 | Table of Contents |
@@ -14,10 +16,13 @@
 | [Files and Folders](https://github.com/ahmed-kamal-el-maghraby/Windows-Forensics-Notes/blob/main/Windows-Registry-Analysis.md#files-and-folders) |
 
 <br>
+
 <br>
 
 
 ### System info and accounts
+
+<br>
 
 | Registry keys | Description |
 | -------------------- | -------------------- |
@@ -35,6 +40,8 @@
 
 ### Software, services and programms
 
+<br>
+
 | Registry keys | Description |
 | -------------------- | -------------------- |
 | HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services | contains information about the services that are installed on the system |
@@ -49,6 +56,8 @@
 <br> <br> 
 
 ### Network, Share and Backups
+
+<br>
 
 | Registry keys | Description |
 | -------------------- | -------------------- |
@@ -66,6 +75,9 @@
 
 
 ### Hardware, printers and External/USB device
+
+<br>
+
 | Registry keys | Description |
 | -------------------- | -------------------- |
 | HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum | contains information about hardware devices that are installed on the system |
@@ -84,6 +96,8 @@
 
 
 ### Files and Folders
+
+<br>
 
 | Registry keys | Description |
 | -------------------- | -------------------- |
