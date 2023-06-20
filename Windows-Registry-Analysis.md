@@ -104,11 +104,8 @@
 | HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders | contains information about the locations of various system folders, such as the desktop and the Start menu |
 | HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs | contains information about recently opened documents |
 | HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer | contains information about Explorer policies that are enforced on the system |
-| - NTUSER.DAT\Software\Microsoft\Windows\CurrentVersion\Explorer\TypedPaths <br> - NTUSER.DAT\Software\Microsoft\Windows
-\CurrentVersion\Explorer\WordWheelQuery | Windows Explorer Address/Search Bars |
-| -NTUSER.DAT\Software\Microsoft\Windows
-\CurrentVersion\Explorer\ComDlg32\OpenSavePIDlMRU <br> - NTUSER.DAT\Software\Microsoft\Windows
-\CurrentVersion\Explorer\ComDlg32\LastVisitedPidlMRU | Open/Save and LastVisited Dialog MRUs |
+| - NTUSER.DAT\Software\Microsoft\Windows\CurrentVersion\Explorer\TypedPaths <br> - NTUSER.DAT\Software\Microsoft\Windows\CurrentVersion\Explorer\WordWheelQuery | Windows Explorer Address/Search Bars |
+| -NTUSER.DAT\Software\Microsoft\Windows\CurrentVersion\Explorer\ComDlg32\OpenSavePIDlMRU <br> - NTUSER.DAT\Software\Microsoft\Windows\CurrentVersion\Explorer\ComDlg32\LastVisitedPidlMRU | Open/Save and LastVisited Dialog MRUs |
 | - NTUSER.DAT\Software\Microsoft\Office\VERSION <br> - NTUSER.DAT\Software\Microsoft\Office\VERSION\UserMRU\LiveID_####\FileMRU | Office Recent Files |
 
 
